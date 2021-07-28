@@ -3,19 +3,9 @@ import java.io.IOException;
 import java.net.URI;
 import java.net.URISyntaxException;
 
-public class Maysit{
+public class Maysit extends Uri{
 	public static void main(String[] args){
 		Desktop desktop = Desktop.getDesktop();
-		String uriString0 = "http://www.google.co.jp";
-        String uriString1 = "https://www.youtube.com/";
-        String uriString2 = "https://www.google.com/maps/@36.9370426,139.9059505,14z";
-        String uriString3 = "https://calendar.google.com/calendar/u/0/r?pli=1";
-        String uriString4 = "https://mail.google.com/mail/u/0/#inbox";
-        String uriString5 = "https://chrome.google.com/webstore/category/extensions?hl=ja";
-        String uriString6 = "https://drive.google.com/drive/my-drive";
-        String uriString7 = "https://docs.google.com/spreadsheets/u/0/";
-        String uriString8 = "https://docs.google.com/document/u/0/";
-        String uriString9 = "https://github.com/";
         System.out.println("利用したいサービスを数字キーで選択し、Enterキーで決定してください。");
         System.out.println("0:GoogleChrome" + " " + "1:Youtube" + " " + "2:GoogleMap" + " " + "3:Googleカレンダー" + " " + "4:Gmail" + " " + "5:Chromeウェブストア" + " " + "6:Googleドライブ" + " " + "7:Googleスプレッドシート" + " " + "8:Googleドキュメント" + " " + "9:GitHub");
         int input = new java.util.Scanner(System.in).nextInt(10);
