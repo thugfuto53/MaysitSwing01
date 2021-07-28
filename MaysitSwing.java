@@ -151,7 +151,7 @@ public class MaysitSwing extends JFrame {
 	/**
 	 * Create the frame.
 	 */
-	public SwingSample() {
+	public MaysitSwing() {
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 567, 366);
 		contentPane = new JPanel();
