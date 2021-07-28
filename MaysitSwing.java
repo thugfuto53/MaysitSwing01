@@ -34,7 +34,7 @@ public class MaysitSwing extends JFrame {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
-					SwingSample frame = new SwingSample();
+					MaysitSwing frame = new MaysitSwing();
 					frame.setVisible(true);
 				} catch (Exception e) {
 					e.printStackTrace();
