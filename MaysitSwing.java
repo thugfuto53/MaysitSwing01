@@ -22,7 +22,7 @@ import java.awt.CardLayout;
 import javax.swing.BoxLayout;
 import java.awt.SystemColor;
 
-public class SwingSample extends JFrame {
+public class MaysitSwing extends JFrame {
 
 	private JPanel contentPane;
 
